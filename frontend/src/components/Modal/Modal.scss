@@ -1,0 +1,79 @@
+.modalStyle {
+  .ant-modal-content {
+    width: 420px;
+  }
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .details-container {
+      display: flex;
+      gap: 40px;
+
+      .details {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+        p {
+          margin: 0;
+        }
+        .c {
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .transfer {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      padding: 10px;
+      justify-content: center;
+      input {
+        width: 100%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+        outline-color: #1884c27a;
+      }
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+
+      .button-close {
+        background: rgba(233, 19, 57, 0.2);
+        border-radius: 100px;
+        height: 40px;
+        width: 140px;
+        border-radius: 100px;
+        border: none;
+        color: #e91339;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      .button-act {
+        background: #1885c2;
+        border-radius: 100px;
+        height: 40px;
+        width: 140px;
+        border-radius: 100px;
+        border: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
